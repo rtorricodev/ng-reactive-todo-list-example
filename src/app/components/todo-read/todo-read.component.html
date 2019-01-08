@@ -1,0 +1,12 @@
+<div *ngIf="todos">
+  <ul>
+    <li *ngFor="let todo of todos | async;let i = index">
+      {{todo.content}}
+      <a 
+        class="delete" 
+        (click)="deleteTodo(i)">
+      </a>
+    </li>
+  </ul>
+
+</div>

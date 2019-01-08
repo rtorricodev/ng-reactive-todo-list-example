@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "todo-read.component.scss"
+    ],
+    "names": [],
+    "file": "todo-read.component.css"
+}
