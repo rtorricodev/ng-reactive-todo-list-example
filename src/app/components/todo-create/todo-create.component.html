@@ -1,0 +1,23 @@
+
+ 
+<h1 class="title">Mi lista de cosas que hacer:</h1>
+
+<div>
+  <input 
+    class="input"
+    type="text" 
+    onfocus="this.value=''"
+    placeholder="Comprar pan..."
+    #content>
+</div>
+
+<button 
+  class="button"
+  (click)="addTodo(content.value)">
+  Agregar
+</button>
+
+
+   
+
+
